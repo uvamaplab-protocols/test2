@@ -1,0 +1,15 @@
+{
+    "header_text": "Text",
+    "elements": [
+        {
+            "type": "Text",
+            "html": true,
+            "text": "<p><b>This is marked as HTML</b></p>"
+        },
+		{
+            "type": "Text",
+            "html": false,
+            "text": "<p><b>This is not marked as HTML</b></p>"
+        }
+    ]
+}

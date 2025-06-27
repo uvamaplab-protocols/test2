@@ -1,0 +1,28 @@
+{
+    "header_text": "Text Entry",
+    "elements": [
+		{
+			"type":"Text",
+			"text":"Default Height"
+		},
+        {
+            "type": "Entry"
+        },
+		{
+			"type":"Text",
+			"text":"100 Height"
+		},
+		{
+			"type": "Entry",
+			"height": 100
+        },
+		{
+			"type":"Text",
+			"text":"200 Height"
+		},
+		{
+			"type": "Entry",
+			"height": 200
+        }
+    ]
+}
