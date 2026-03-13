@@ -47,6 +47,13 @@
           }
         },
         {
+          "type": "button",
+          "action": {
+            "text": "About Me",
+            "action": "flow://flows/about-me"
+          }
+        },
+        {
           "type": "carousel",
           "actions": [
             {

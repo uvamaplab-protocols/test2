@@ -1,0 +1,18 @@
+{
+    "header_text": "About Me",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Welcome to the About Me page!"
+        },
+        {
+            "type": "Text",
+            "text": "This is a digital trails protocol test application. It demonstrates how to create flows and navigation in our system."
+        },
+        {
+            "type": "Text",
+            "text": "You can customize this page to add more information about yourself or your project."
+        }
+    ]
+}
