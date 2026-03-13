@@ -1,4 +1,13 @@
 {
-    "header_text": "Information One Time",
-    "information": "This is an information Popup"
+  "information": {
+    "elements": [
+      {
+        "type": "Media",
+        "url": "/assets/home_banner.png"
+      }
+    ],
+    "position": "after",
+    "condition": null,
+    "information_count": 1
+  }
 }

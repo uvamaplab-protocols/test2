@@ -1,4 +1,6 @@
 {
 	"mode": "select",
-	"text": "Select an Element below to view"
+	"text": "Select an Element below to view",
+	"completed_alert": "Inputs Completed",
+	"abandoned_alert": "Inputs Abandoned"
 }
