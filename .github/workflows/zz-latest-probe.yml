@@ -1,0 +1,12 @@
+name: zz latest probe
+run-name: "probe: ${{ github.event.action }} ${{ github.event.release.tag_name }}"
+on:
+  release:
+    types: [published, edited, released, created, unpublished, deleted]
+jobs:
+  say:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "action=${{ github.event.action }} tag=${{ github.event.release.tag_name }} latest=$(gh api repos/$GITHUB_REPOSITORY/releases/latest --jq .tag_name)"
